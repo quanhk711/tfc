@@ -8,6 +8,6 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "quan-tfc"
+  default     = "quan-tfc-lab"
 }
 
