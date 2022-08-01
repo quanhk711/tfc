@@ -9,4 +9,10 @@ variable "contact" {
   default     = "quan-devopsify"
 }
 
+variable "prefix" {
+  description = "prefix of tags"
+}
 
+variable "region" {
+  description = "region of env"
+}
