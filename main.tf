@@ -14,8 +14,9 @@ locals {
   }
 }
 
+
 module "vpc" {
-  source              = "git::https://gitlab.com/t3774/module_aws_vpc.git?ref=refactoring"
+  source              = "git::https://github.com/devopsifyco/terraform_module_template.git//module_aws_vpc"
   common_tags         = local.common_tags
   prefix              = local.prefix
   cidr_block          = "10.1.0.0/16"
